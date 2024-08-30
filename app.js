@@ -7,10 +7,13 @@ else{console.log("large no");}
 console.log(`in my first node app`);
 console.log(__dirname);
 const { readFile, writeFile}= require('fs')
-*/
 
 const _ = require('lodash');
 
 const items=[1,[3,[45,6]],2,3];
 const newitems = _.flattenDeep(items);
 console.log(newitems);
+console.log("hello guz");
+
+    //if u dont want to use it with start install nodemon globally and run nodemon app.js 
+*/
